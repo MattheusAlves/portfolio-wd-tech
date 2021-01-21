@@ -1,0 +1,16 @@
+.cellphone {
+  position: relative;
+  z-index: 2;
+  min-width: 238px;
+  min-height: 148px;
+  max-width: 600px;
+  max-height: 400px;
+  width: 70%;
+  height: 60%;
+}
+@media (max-height: 800px) {
+  .cellphone {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}

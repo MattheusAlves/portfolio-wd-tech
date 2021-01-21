@@ -1,0 +1,11 @@
+.footer-wrapper {
+  min-width: 100vw;
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+}
+.wave-svg {
+  min-width: 100vw;
+  z-index: 0;
+  opacity: .7;
+}
