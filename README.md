@@ -1,4 +1,4 @@
-#WD Tech Landing Page
+# WD Tech Landing Page
 
 **Página de divulgação dos serviços prestados pela empresa WD Tech**
 ![](/public/ss1.png)
