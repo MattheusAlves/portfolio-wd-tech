@@ -73,7 +73,7 @@ function Home(): JSX.Element {
                   size={40}
                   color="white"
                 />
-                <p className={styles['ap-service-title']}>(19)99770-6148 </p>
+                <p className={styles['ap-service-title']}>(19)98928-9624 </p>
                 <p className={styles['ap-service-title-contact']}>
                   &nbsp;- Atendimento via Whatsapp
                 </p>
