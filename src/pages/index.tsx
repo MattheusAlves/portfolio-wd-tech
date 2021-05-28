@@ -28,6 +28,7 @@ function Home(): JSX.Element {
         <div className={styles['ap-container']}>
           <Cellphone />
           <div className={styles['ap-services']}>
+            <div className={styles.background} />
             <img src="/images/section-1.jpg" className={styles['ap-img']} />
             <div className={styles['ap-services-wrapper']}>
               <span className={styles['ap-service']}>
@@ -68,21 +69,26 @@ function Home(): JSX.Element {
                 loop
               />
               <div className={styles['ap-service-contact']}>
-                <FaWhatsapp
-                  className={styles['icon-wpp']}
-                  size={40}
-                  color="white"
-                />
-                <p className={styles['ap-service-title']}>(19)98956-8652</p>
+                <p className={styles['ap-service-number']}>
+                  <a
+                  target="_blank"
+                    href="https://api.whatsapp.com/send?text='Olá! Gostaria de um orçamento.'&phone=5519989568652">
+                    <FaWhatsapp
+                      className={styles['icon-wpp']}
+                      size={40}
+                      color="#4ac959"
+                    />
+                      (19)98956-8652</a>
+                </p>
                 <p className={styles['ap-service-title-contact']}>
-                  &nbsp;- Atendimento via Whatsapp
+                  Atendimento via Whatsapp
                 </p>
               </div>
             </div>
           </div>
         </div>
       </BasePage>
-    </BaseLayout>
+    </BaseLayout >
   )
 }
 
